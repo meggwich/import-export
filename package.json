@@ -1,0 +1,35 @@
+{
+  "name": "import-export",
+  "version": "1.0.0",
+  "description": "webpack using",
+  "homepage": "https://github.com/meggwich/web-pack#readme",
+  "bugs": {
+    "url": "https://github.com/meggwich/web-pack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meggwich/web-pack.git"
+  },
+  "license": "ISC",
+  "author": "Mikita Alkhimionak",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "globals": "^15.14.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
